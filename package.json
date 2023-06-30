@@ -1,0 +1,23 @@
+{
+  "name": "omega",
+  "version": "1.0.0",
+  "description": "A supervised learning model that can interpret natural language into a request payload for given parameters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AvDevx/omega.git"
+  },
+  "author": "avdevx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AvDevx/omega/issues"
+  },
+  "homepage": "https://github.com/AvDevx/omega#readme",
+  "dependencies": {
+    "@tensorflow-models/universal-sentence-encoder": "^1.3.3",
+    "@tensorflow/tfjs": "^4.8.0"
+  }
+}
